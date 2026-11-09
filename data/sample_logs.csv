@@ -1,0 +1,12 @@
+timestamp,event_type,username,source_ip,message
+2026-11-08T08:00:00Z,login_success,alice,192.0.2.10,User login successful
+2026-11-08T08:02:00Z,login_failed,bob,198.51.100.77,Invalid password
+2026-11-08T08:02:30Z,login_failed,bob,198.51.100.77,Invalid password
+2026-11-08T08:03:00Z,login_failed,bob,198.51.100.77,Invalid password
+2026-11-08T08:03:30Z,login_failed,bob,198.51.100.77,Invalid password
+2026-11-08T08:04:00Z,login_failed,bob,198.51.100.77,Invalid password
+2026-11-08T08:04:30Z,login_success,bob,198.51.100.77,Login successful after repeated failures
+2026-11-08T08:10:00Z,login_success,administrator,192.0.2.25,Administrator login
+2026-11-08T08:12:00Z,privilege_escalation,alice,192.0.2.10,User added to privileged group
+2026-11-08T08:15:00Z,login_failed,carol,203.0.113.9,Invalid password
+2026-11-08T08:16:00Z,login_success,carol,203.0.113.9,User login successful
